@@ -7,4 +7,5 @@ public class StringConstants {
     public static final String STRATEGY_OPT_DESCRIPTION = "The strategy for running the compression/decompression algorithm. Available options are 'recursive', or 'file' for single files";
     public static final String ACTION_OPT_DESCRIPTION = "Actions to be performed. Available actions are 'compress' or 'decompress'";
     public static final String OUTPUT_PHOTO_PATH = "DSC_0035";
+    public static final String INVALID_PHOTO_PATH = "fileNotFound";
 }

@@ -22,7 +22,7 @@ public class CompresserUnitTest {
         Assert.assertTrue(new File(StringConstants.OUTPUT_PHOTO_PATH).exists());
         Assert.assertEquals(10598400, new File(StringConstants.OUTPUT_PHOTO_PATH).length(), 0.0);
     }
-
+    
     @AfterClass
     public static void closeObjects(){
         File output = new File(StringConstants.OUTPUT_PHOTO_PATH);
