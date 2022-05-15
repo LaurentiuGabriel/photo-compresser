@@ -9,7 +9,6 @@ import java.util.zip.DeflaterOutputStream;
 public class FileCompresser implements Compresser{
     @Override
     public void compress(String input, String output) {
-        System.out.println("File compression started. Depending on the file size, it may take a while...");
         FileInputStream fileInputStream = null;
         FileOutputStream fileOutputStream = null;
         try {

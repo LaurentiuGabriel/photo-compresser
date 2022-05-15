@@ -9,7 +9,6 @@ import java.util.zip.InflaterOutputStream;
 public class FileDecompresser implements Decompresser{
     @Override
     public void decompress(String input, String output) {
-        System.out.println("File decompression started. Depending on the file size, it may take a while...");
         FileInputStream fileInputStream = null;
         FileOutputStream fileOutputStream = null;
         try {
